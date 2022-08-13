@@ -1,2 +1,2 @@
-# TS--
+# TS CHALLENGES
 开整 TS 类型体操
