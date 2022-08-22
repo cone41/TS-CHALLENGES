@@ -21,3 +21,5 @@
 */
 
 type MyAwaited<T extends Promise<any>> = T extends PromiseLike<infer P> ? (P extends Promise<any> ? MyAwaited<P> : P) : T;
+
+// infer 只能在条件语句里用 ，类似于设置一个未知数
